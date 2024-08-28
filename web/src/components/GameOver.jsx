@@ -3,8 +3,6 @@ import { QuizContext } from "../context/quiz";
 
 import Successs from '../assets/img/success.svg'
 
-import '../assets/css/style.css'
-
 const GameOver = () => {
     const [quizState, dispatch] = useContext(QuizContext);
 

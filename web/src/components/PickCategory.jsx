@@ -3,7 +3,6 @@ import { QuizContext } from "../context/quiz";
 
 import Category from "../assets/img/category.svg";
 
-import '../assets/css/style.css'
 
 const PickCategory = () => {
     const [quizState, dispatch] = useContext(QuizContext);

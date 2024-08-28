@@ -3,8 +3,6 @@ import { QuizContext } from "../context/quiz";
 
 import Option from "./Option";
 
-import '../assets/css/style.css';
-
 const Question = () => {
     const [quizState, dispatch] = useContext(QuizContext);
     const currentQuestion = quizState.questions[quizState.currentQuestion];
