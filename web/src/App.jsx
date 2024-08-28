@@ -3,6 +3,8 @@
 
 //import Welcome from './components/Welcome';
 
+import Success from './assets/img/success.svg';
+
 import './assets/css/style.css'
 
 function App(){
@@ -11,7 +13,7 @@ function App(){
     return(
         <div className="App">
             <h1>Quiz Craze</h1>
-           
+            <img src={Success} alt="Sucesso"/>
         </div>
     );
 }
