@@ -31,3 +31,87 @@
 }
 
 /*--- Components - PickCategory ---*/
+#category {
+  text-align: center;
+  max-width: 500px;
+}
+
+#category h2,
+#category p {
+  margin-bottom: 1rem;
+}
+
+#category p {
+  color: #8435de;
+}
+
+#category img {
+  margin-top: 2rem;
+  max-width: 300px;
+}
+
+#category button {
+  margin: 1rem;
+}
+
+/*--- Components - Question ---*/
+#question {
+  background-color: #8435de;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 500px;
+}
+
+#question p {
+  margin-bottom: 1rem;
+}
+
+#question h2 {
+  margin-bottom: 2rem;
+}
+
+#question button {
+  border: 2px solid #fff;
+  margin: 1rem;
+}
+
+/*--- Components - Option ---*/
+#options-container .option p {
+  margin-bottom: 0;
+}
+
+.correct {
+  background-color: #0bfc03;
+  font-weight: bold;
+}
+
+.wrong {
+  background-color: #3c0e70;
+  opacity: 0.5;
+}
+
+.hide {
+  display: none;
+}
+
+/*--- Components - GameOver ---*/
+#gameover {
+  text-align: center;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+#gameover h2,
+#gameover p {
+  margin-bottom: 1rem;
+}
+
+#gameover p {
+  color: #8435de;
+}
+
+#gameover img {
+  margin: 2rem auto;
+  height: 200px;
+}
